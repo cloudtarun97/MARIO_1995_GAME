@@ -32,7 +32,7 @@ Click on Actions --> Security --> Modify IAM role.
 
 STEP 3: Cluster provision
 
-	--> git clone https://github.com/cloudtarun97/MARIO_1995_GAME.git
+	--> git clone https://github.com/cloudtarun97/mario_1995_game.git
 
 	--> cd k8s-mario
 
@@ -111,7 +111,9 @@ Paste the ingress link in a browser and you will see the Mario game.
 Step 6: Destruction :
 
 --> kubectl get all
+
 --> kubectl delete service mario-service
+
 --> kubectl delete deployment mario-deployment
 
 --> terraform destroy --auto-approve
